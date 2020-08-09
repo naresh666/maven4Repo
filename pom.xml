@@ -30,9 +30,9 @@
 					<version>3.0.0-M5</version>
 					<configuration>
 						<suiteXmlFiles>
-						<file></file>
-						<suiteXmlFile></suiteXmlFile>
-							<suiteXmlFile>smoke.xml</suiteXmlFile>
+<!-- 						<file></file> -->
+<!-- 						<suiteXmlFile></suiteXmlFile> -->
+							<suiteXmlFile>${xmlSuite}</suiteXmlFile>
 						</suiteXmlFiles>
 						<systemPropertyVariables>
 							<browser>{browser}</browser>
